@@ -8,7 +8,8 @@ app.use(express.static('./'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const users = [
-    { email: 'user@example.com', password: 'password' }
+    { email: 'user@example.com', password: 'password' },
+    { email: 'user1@example.com', password: 'password1' }
 ];
 
 app.get('/', (req, res) => {

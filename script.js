@@ -29,3 +29,17 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+// script.js
+document.addEventListener('DOMContentLoaded', function () {
+    var hoverBox = document.getElementById('hoverBox');
+    var hoverWindow = document.getElementById('hoverWindow');
+
+    hoverBox.addEventListener('mouseover', function () {
+        hoverWindow.style.display = 'block';
+    });
+
+    hoverBox.addEventListener('mouseout', function () {
+        hoverWindow.style.display = 'none';
+    });
+});

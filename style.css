@@ -209,6 +209,11 @@ body{
         font-size: small;
         position: absolute;
         right:14vw;
+        
+    }
+    .cart a{
+        text-decoration: none;
+        color: black;
     }
     .lang{
         display: flex;
@@ -300,12 +305,29 @@ body{
         background-color: #EEEEEE;
         margin-left: 2vw;
         margin-right: 2vw;
+        padding: px;
     }
     .box-img{
         height: 85%;
         width: 100%;
         background-size: cover;
     
+    }
+    .box:hover{
+        border: rgb(203, 203, 203) 1px solid;
+    }
+    .window {
+        display: none;
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        background-color: #2ecc71;
+        color: #fff;
+        text-align: center;
+        line-height: 100px;
+        top: 120px; /* Adjust the position as needed */
+        left: 50%; /* Adjust the position as needed */
+        transform: translateX(-50%);
     }
     .img-text1{
         display: flex;
